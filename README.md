@@ -22,7 +22,6 @@ else if(avg<80) return 'C';
 else if(avg<90) return 'B';
 else return 'A';
 }
-
 main(){
 int c=0,count=0,i,n,j,id[20],cpro[20],eng[20],math[20],index[20];
 char name[20][30],sex[20],tmp1,tmp2[30];
@@ -55,10 +54,6 @@ puts("a. inserting name by location");
 puts("b. adding students");
 puts("c. updating student");
 puts("0. exited");
-
-
-
-
 switch(getch()){
 	case '1':
    			puts("id\tname\tsex\tcpro\tenglish\tmath\ttotal\taverage\tresult\tgrade");
